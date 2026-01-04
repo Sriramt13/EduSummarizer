@@ -1,16 +1,125 @@
-# React + Vite
+# 🎓 EduSummarizer — AI-Powered Multi-Format Study Notes Summarizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EduSummarizer is a smart learning tool that converts long study materials into **crisp summaries** in seconds.  
+It supports **PDF, DOCX, TXT, and pasted text**, and allows users to export summaries in **TXT / PDF / DOCX formats**.
 
-Currently, two official plugins are available:
+Built for students, researchers, and learners to save time, improve revision speed, and extract key insights quickly.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📂 Multi-Format Input (Auto-Detect)
+- Upload **PDF**
+- Upload **DOCX (Word)**
+- Upload **TXT files**
+- Or **paste text manually**
 
-## Expanding the ESLint configuration
+### 🧠 Smart Summarization Modes
+- ✂ **Sentence-style summary** (short explanation)
+- 🔹 **Key-Points summary** (bullet insights)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📊 Useful Learning Insights
+- Word reduction & compression %
+- Reading time saved
+- Summary word stats
+
+### 💾 Export Summary
+- Download as **TXT**
+- Export as **PDF**
+- Export as **DOCX**
+
+### 🎨 Modern UI Enhancements
+- Theme color palette switcher
+- Light / Dark mode toggle
+- Motion / calm animation mode
+- Premium glass-morphic interface
+
+---
+
+## 🏗️ Tech Stack
+
+- **React + Vite**
+- **pdfjs-dist** → PDF text extraction  
+- **mammoth.js** → DOCX text extraction  
+- **jsPDF / docx / file-saver** → Export formats  
+- Modern responsive UI with CSS animations
+
+---
+
+## 🔧 How to Run Locally
+
+```bash
+git clone https://github.com/Sriramt13/EduSummarizer.git
+cd EduSummarizer
+npm install
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## 🖼️ Project Workflow
+
+```
+Upload File / Paste Text
+        ↓
+Extract Text
+        ↓
+AI-Style Summarization
+        ↓
+Show Key Insights + Stats
+        ↓
+Export (TXT / PDF / DOCX)
+```
+
+---
+
+## 🎯 Problem Statement
+
+Students and learners struggle with:
+- Reading long PDFs, research papers & notes
+- Slow revision & poor retention
+- Manually preparing study summaries
+
+---
+
+## ✅ Solution
+
+EduSummarizer helps by:
+- Automatically extracting text from study materials
+- Generating **clean, readable summaries**
+- Providing compression insights & revision advantages
+- Supporting **multi-format export & sharing**
+
+---
+
+## 🌟 Future Enhancements (Roadmap)
+
+- OCR support for **scanned images / handwritten notes**
+- Multi-language summarization
+- Topic-wise learning insights
+- Cloud save + user history
+
+---
+
+## 👨‍💻 Team
+
+Built as part of **Byte Quest – AI Vibe Coding Challenge 2026**  
+Developer — *Sri Ram*
+
+---
+
+## 🏁 Hackathon Deliverables
+
+- ✔ Working product
+- ✔ Multi-format upload & export
+- ✔ AI-style summarization logic
+- ✔ Intuitive + polished UI
+
+---
