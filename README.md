@@ -111,8 +111,10 @@ EduSummarizer helps by:
 ## 👨‍💻 Team
 
 Built as part of **Byte Quest – AI Vibe Coding Challenge 2026**  
-Developer — *Sri Ram*
-
+Developer — *Pinnamireddy Sri Ram Teja*-Team leader
+*Ananthapalli Vignesh
+*Kallepalli Ramesh
+*Siddanathi Y Surya Venkata Durga Prasad
 ---
 
 ## 🏁 Hackathon Deliverables
